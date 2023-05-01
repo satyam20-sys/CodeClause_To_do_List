@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom right, #f0f0f0, #ddd);
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .form {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  .form-input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-submit {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #4CAF50;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .form-submit:hover {
+    cursor: pointer;
+    background-color: #3E8E41;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s;
+  }
+  
+  .task:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .task:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .task .task-text {
+    flex: 1;
+  }
+  
+  .task .task-priority {
+    margin-left: 20px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  .task .task-priority.low {
+    background-color: #e6f5d0;
+    color: #3c763d;
+  }
+  
+  .task .task-priority.medium {
+    background-color: #fdebd0;
+    color: #8a6d3b;
+  }
+  
+  .task .task-priority.high {
+    background-color: #f0b3b3;
+    color: #a94442;
+  }
+  
+  .task .task-delete {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f44336;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .task .task-delete:hover {
+    cursor: pointer;
+    background-color: #da190b;
+  }
+  
